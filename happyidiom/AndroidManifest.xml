@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.bztc.happyidion.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.StudyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.StudyAnimalActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.CollectActivity"
+            android:label="@string/title_activity_collect" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.GameGuessActivity"
+            android:label="@string/title_activity_game_guess" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.PlayGuessActivity"
+            android:label="@string/title_activity_play_guess" >
+        </activity>
+        <activity
+            android:name="cn.edu.bztc.happyidion.activity.SetActivity"
+            android:label="@string/title_activity_set" >
+        </activity>
+        
+        <service android:name="com.example.musicservice.AndioService"></service>
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="cn.edu.bztc.happyidion.activity" >
+    </instrumentation>
+
+</manifest>

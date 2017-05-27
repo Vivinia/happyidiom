@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ling"
+    android:orientation="vertical"
+    tools:context=".GameActivity" >
+
+    <TextView
+        android:id="@+id/tvGameGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:onClick="gamePlay"
+        android:text="@string/tvGameGuess"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/tvGameWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="gamePlay"
+        android:text="@string/tvGameWrite"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/tvGameConn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="gamePlay"
+        android:text="@string/tvGameConn"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+</LinearLayout>

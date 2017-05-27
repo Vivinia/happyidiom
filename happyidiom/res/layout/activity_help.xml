@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ling"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".GameActivity" >
+
+    <TextView
+        android:id="@+id/tvHelp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelp" />
+
+    <TextView
+        android:id="@+id/tvHelpStudy"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelpStudy" />
+
+    <TextView
+        android:id="@+id/tvHelpSearch"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelpSearch" />
+
+    <TextView
+        android:id="@+id/tvHelpGame"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelpGame" />
+
+    <TextView
+        android:id="@+id/tvHelpCollect"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelpCollect" />
+
+    <TextView
+        android:id="@+id/tvHelpHelp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHelpHelp" />
+
+</LinearLayout>

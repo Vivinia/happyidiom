@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">happyidiom</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_study">学习</string>
+    <string name="title_search">搜搜</string>
+    <string name="title_game">游戏</string>
+    <string name="title_save">收藏</string>
+    <string name="title_help">帮助</string>
+    <string name="animal">动物类</string>
+
+    <string-array name="category">
+        <item>动物类</item>
+        <item>自然类</item>
+        <item>人物类</item>
+        <item>季节类</item>
+        <item>数字类</item>
+        <item>寓言类</item>
+        <item>其它类</item>
+    </string-array>
+
+    <string name="tvGameGuess">猜成语</string>
+    <string name="tvGuessHelp">          	根据成语解释选择正确的成语，十道题以内累计得分六十即可闯关成功	</string>
+    <string name="tvGameWrite">成语填词</string>
+    <string name="tvGameConn">成语接龙</string>
+    <string name="tvHelp">乐学成语学习软件</string>
+    <string name="tvHelpStudy">1.学习栏：可进行成语学习，查看解释级源自等成语信息，并且可以收藏成语。</string>
+    <string name="tvHelpSearch">2.搜索栏：可以进行精确搜索和模糊搜索，比如输入“龙”会显示包含“龙”的所有成语列表。</string>
+    <string name="tvHelpGame">3.游戏栏：针对成语学习可通过“猜成语”和“成语接龙”小游戏进行巩固成语的学习。</string>
+    <string name="tvHelpCollect">4.收藏栏：收藏过的成语可以在收藏栏里进行查看和删除。</string>
+    <string name="tvHelpHelp">5.帮助栏：讲解软件页面作用。</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_game_guess">GameGuessActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_play_guess">PlayGuessActivity</string>
+    <string name="title_activity_set">SetActivity</string>
+
+</resources>
